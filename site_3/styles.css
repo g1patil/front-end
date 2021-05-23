@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 170px;
+    cursor:  pointer;
+}
+
+li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.navbar li a:hover{
+    color: #7B68EE;
+}
+
+.button-login {
+    background-color: #7B68EE;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.create-code {
+    background-color: #7B68EE;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
