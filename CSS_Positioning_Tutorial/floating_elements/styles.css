@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+}
+
+.wrapper {
+    /* max-width: 900px; */
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+
+.blue {
+    background-color:#eee;
+}
+
+.green {
+    background-color: #eee;
+
+}
+.yellow {
+    background-color: #eee;
+}
+
+.box {
+    height: 100px;
+    width: 29%;
+    border: 2px solid black;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+
+h2, p {
+    text-align: center;
+}
