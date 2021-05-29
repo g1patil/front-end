@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 70px;
+    padding: 15px 70px;
 }
 
 a {
@@ -42,4 +42,20 @@ li{
     background-color: #7B68EE;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.section {
+    display: flex;
+    padding: 50px 25px;
+}
+.secret__header {
+    display: block;
+    text-align: center;
+    padding: 25px 50px;
+}
+
+h1{
+    font-family: Barlow, "Segoe UI", sans-serif;
+    text-decoration: none;
+    font-weight: normal;
 }
