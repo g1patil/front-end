@@ -1,0 +1,8 @@
+p, a {
+    background-color: yellow;
+    padding: 30px;
+    border: 2px solid black;
+    margin: 10px;
+    display: block;
+    width: 15%;
+}
