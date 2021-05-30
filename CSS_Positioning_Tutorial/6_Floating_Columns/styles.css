@@ -36,3 +36,12 @@ aside, section, img {
     text-align: justify;
     column-gap: 50px;
 }
+
+.image_banner {
+    position: relative;
+}
+.image_header{
+    position: absolute;
+    margin: 1%;
+    padding: 5px;
+}
