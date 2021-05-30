@@ -29,3 +29,10 @@ aside, section, img {
     content: "";
     display: block;
 }
+
+.last_para p {
+    column-count: 3;
+    column-rule: 2px dotted #ccc;
+    text-align: justify;
+    column-gap: 50px;
+}
