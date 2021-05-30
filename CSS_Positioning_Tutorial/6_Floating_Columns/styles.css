@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(185, 170, 170);
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+aside, section, img {
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    padding: 5px;
+}
+
+.columns:after {
+    clear: both;
+    content: "";
+    display: block;
+}
