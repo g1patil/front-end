@@ -45,3 +45,25 @@ aside, section, img {
     margin: 1%;
     padding: 5px;
 }
+.nav {
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+    float: left;
+}
+
+.nav ul::after {
+    clear: both;
+    display: block;
+    content: "";
+}
