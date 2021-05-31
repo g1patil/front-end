@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 220px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    margin: none;
+    justify-content: space-between;
+    background-color: rgb(106, 125, 165);
+}
+li , a{
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer {
+    display: block;
+    padding: 100px;
+    background-color: #eee;
+}
