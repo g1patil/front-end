@@ -17,17 +17,19 @@ body {
     min-width: 100px;
     height: 200px;
     display: block;
-    flex-grow: 1;
 }
 
 .one {
     background:red;
+    flex-basis: 50%;
 }
 
 .two {
     background: blue;
+    flex-basis: 25%;
 }
 
 .three {
     background: green;
+    flex-basis: 25%;
 }
