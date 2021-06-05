@@ -10,8 +10,9 @@ body {
 }
 
 .contact_box {
-    background: #fff;
     display: flex;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 15px 20px 15px 0px rgba(13, 11, 24, 0.3);
 }
 
 .contact_left {
@@ -19,12 +20,14 @@ body {
     flex-basis: 60%;
     max-width: 60%;
     padding: 40px 60px;
+    border-radius: 20px 0 0 20px;
 }
 
 .contact_right {
     background: blue;
     flex-basis: 40%;
     padding: 40px;
+    border-radius: 0 20px 20px 0;
 }
 .contact_right h3 {
     color: white;
@@ -89,4 +92,15 @@ button {
 .contact_left h3 {
     font-weight: 600;
     margin-bottom: 30px;
+}
+
+.contact_right tr {
+    color: white;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
 }
