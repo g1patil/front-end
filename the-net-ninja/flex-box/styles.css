@@ -9,6 +9,8 @@ body {
 .flex_container {
     display: flex;
     background: white;
+    width: 80%;
+    margin: auto;
 }
 .flex_item {
     width: 200px;
@@ -18,15 +20,15 @@ body {
 
 .one {
     background:red;
-    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .two {
     background: blue;
-    flex-grow:2;
+    flex-shrink:2;
 }
 
 .three {
     background: green;
-    flex-grow: 3;
+    flex-shrink: 3;
 }
