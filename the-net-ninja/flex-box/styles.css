@@ -11,24 +11,23 @@ body {
     background: white;
     width: 80%;
     margin: auto;
+    flex-wrap: wrap;
 }
 .flex_item {
-    width: 200px;
+    min-width: 100px;
     height: 200px;
     display: block;
+    flex-grow: 1;
 }
 
 .one {
     background:red;
-    flex-shrink: 1;
 }
 
 .two {
     background: blue;
-    flex-shrink:2;
 }
 
 .three {
     background: green;
-    flex-shrink: 3;
 }
