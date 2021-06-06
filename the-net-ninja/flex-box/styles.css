@@ -50,13 +50,23 @@
   }
 
   .social a {
-      text-indent: -10000px;
+    text-indent: -10000px;
   }
   /* grid vs flex base styles */
 
   /* flex styles */
 
-
+  .social {
+      margin: 0 auto;
+      max-width: 80px;
+  }
+nav ul.social {
+    display: flex;
+    flex: 1 1 0;
+}
+nav ul.social li {
+    flex: 1 0 0;
+}
 
   @media screen and (min-width: 768px){
 
@@ -65,12 +75,15 @@
   }
 
   nav li{
-    /* flex: 1 1 0; */
+    flex: 1  1 0;
   }
 
   nav{
     display: flex;
     justify-content: space-between;
+  }
+  .social {
+      margin: 0;
   }
 
 
