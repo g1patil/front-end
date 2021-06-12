@@ -115,7 +115,7 @@ article.stack {
 
 
   } /* end media 768 */
-
-  #blocks > p {
-    color: red;
+/* ~ contains, ^ starts with, $ ends with */
+  p[class^="this"]{
+    color: rgb(173, 24, 24);
   }
