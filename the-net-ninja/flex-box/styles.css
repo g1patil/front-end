@@ -115,3 +115,14 @@ article.stack {
 
 
   } /* end media 768 */
+
+#p3 {
+  color: green;
+}
+  p {
+    color: rgb(192, 79, 79);
+  }
+
+  .p4 {
+    color: blue;
+  }
