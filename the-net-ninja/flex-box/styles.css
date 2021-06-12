@@ -116,7 +116,6 @@ article.stack {
 
   } /* end media 768 */
 
-
-p , a {
-  color: red !important;
-}
+  #blocks > p {
+    color: red;
+  }
