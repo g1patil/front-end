@@ -113,9 +113,12 @@ article.stack {
       margin: 0;
   }
 
-
   } /* end media 768 */
 /* ~ contains, ^ starts with, $ ends with */
-  p[class^="this"]{
+  p[class^="this"]:hover{
     color: rgb(173, 24, 24);
+  }
+
+  section article:nth-of-type(2n) {
+    background: yellowgreen;
   }
