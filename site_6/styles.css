@@ -64,6 +64,8 @@ textarea {
     outline: none;
     padding: 10px;
     box-sizing: border-box;
+    max-width: 100%;
+    min-width: 100%;
 }
 label {
     margin-bottom: 6px;
