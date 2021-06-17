@@ -42,5 +42,6 @@ footer {
 }
 
 span {
-    display: inline-block;
+    display: inline;
+    width: 50px;
 }
