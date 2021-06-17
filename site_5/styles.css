@@ -40,3 +40,7 @@ footer {
     padding: 100px;
     background-color: #eee;
 }
+
+span {
+    display: inline-block;
+}
