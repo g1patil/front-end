@@ -14,7 +14,9 @@
   height: 900px;
   background-color: rgb(153, 140, 134);
   /* border-radius: 200px; */
-  background: url(https://pbs.twimg.com/profile_images/869656215374241795/JWrRTm0d.jpg);
-  background-repeat: no-repeat;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Apple_Computer_Logo_rainbow.svg),
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS75blx1sruTvF92f_qqru9As27l5R0e9rT3bkTNc5eJqpxTu26wwQ2ebpfdqPGiKKbbDY&usqp=CAU);
+  background-repeat: no-repeat no-repeat;
   background-position: center;
+  background-size: 300px , 100%;
 }
