@@ -10,8 +10,11 @@
   right: 0;
   bottom: 0;
   left: 0;
-  width: 400px;
-  height: 400px;
-  background-color: green;
-  border-radius: 200px;
+  width: 900px;
+  height: 900px;
+  background-color: rgb(153, 140, 134);
+  /* border-radius: 200px; */
+  background: url(https://pbs.twimg.com/profile_images/869656215374241795/JWrRTm0d.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
