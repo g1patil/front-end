@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.main_content {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2%;
+    position: relative;
+    min-height: 700px;
+}
+
+.one {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200,200,100);
+    border-radius: 200px;
+    top: 50px;
+    left: 50px;
+    opacity: 0.5;
+}
+
+.two {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(200,100,200);
+    border-radius: 200px;
+    top: 50px;
+    left: 250px;
+    opacity: 0.5;
+}
+
+.three {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(100,200,200);
+    border-radius: 200px;
+    top: 250px;
+    left: 150px;
+    opacity: 0.5;
+}
