@@ -49,3 +49,13 @@ body{
     left: 150px;
     opacity: 0.5;
 }
+
+.one:hover {
+    background: -webkit-linear-gradient(top, #eee 0%, rgb(18, 216, 216) 100%);
+}
+.two:hover{
+    background: -webkit-linear-gradient(top, rgb(231, 231, 227) 0%, rgb(226, 226, 32) 100%);
+}
+.three:hover{
+    background: -webkit-linear-gradient(top,#eee 0%, rgb(160, 83, 83) 100%);
+}
