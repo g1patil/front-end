@@ -25,18 +25,16 @@ body{
     border-radius: 200px;
     top: 50px;
     left: 50px;
-    opacity: 0.5;
 }
 
 .two {
     width: 400px;
     height: 400px;
     position: absolute;
-    background: rgb(200,100,200);
+    background: -webkit-linear-gradient(top,#eee 0%, rgb(160, 83, 83) 100%);
     border-radius: 200px;
     top: 50px;
     left: 250px;
-    opacity: 0.5;
 }
 
 .three {
@@ -47,5 +45,4 @@ body{
     border-radius: 200px;
     top: 250px;
     left: 150px;
-    opacity: 0.5;
 }
