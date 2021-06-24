@@ -26,6 +26,7 @@ body{
     top: 50px;
     left: 50px;
     opacity: 0.5;
+    box-shadow: 0px 20px 5px rgba(0,0,0,0.7) inset;
 }
 
 .two {
@@ -37,6 +38,7 @@ body{
     top: 50px;
     left: 250px;
     opacity: 0.5;
+    box-shadow: 0px 20px 5px rgba(0,0,0,0.7) inset;
 }
 
 .three {
@@ -48,6 +50,7 @@ body{
     top: 250px;
     left: 150px;
     opacity: 0.5;
+    box-shadow: 0px 20px 5px rgba(0,0,0,0.7) inset;
 }
 
 .one:hover {
